@@ -27,7 +27,7 @@ export default function MudanzaModal({ iconClassName, bgClassName, title, descri
                     {features.map((feature, index) =>
 
                         <li key={index} className="flex items-center py-1">
-                            <i className="fas fa-check-circle text-green-500 mr-3"></i>
+                            <i className="fas fa-check-circle text-green-600 mr-3"></i>
                             <span className="text-gray-500 text-sm">{feature}</span>
                         </li>
                     )}

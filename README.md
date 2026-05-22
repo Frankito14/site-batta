@@ -5,11 +5,13 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-> Plataforma web oficial para Transportes Batta / Logística Dibat. Diseñada para ofrecer una experiencia de usuario fluida, rápida y optimizada para conversiones (cotizaciones y contacto).
+> Plataforma web oficial para Transportes Batta. Diseñada para ofrecer una experiencia de usuario fluida, rápida y optimizada para conversiones (cotizaciones y contacto).
 
 ---
 
-## 🎯 El proyecto
+![Hero](./src/assets/images/screenshots/hero.png)
+
+## 🎯 Proyecto
 
 Este proyecto es una **Landing Page de alto rendimiento** (Single Page Application adaptada) construida con las últimas tecnologías del ecosistema frontend. Está orientada a la conversión de clientes de servicios de fletes y mudanzas.
 
@@ -21,7 +23,7 @@ Este proyecto es una **Landing Page de alto rendimiento** (Single Page Applicati
 
 ---
 
-## 💻 Arquitectura y Decisiones Técnicas (Para Developers)
+## 💻 Arquitectura y Decisiones Técnicas
 
 El proyecto utiliza **Next.js App Router** (`src/app`). Aunque es un sitio estático, se ha estructurado de forma modular para escalar fácilmente:
 
