@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /config/
+Disallow: /private/
+
+# Permitir lo demás
+Allow: /

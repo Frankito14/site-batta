@@ -1,0 +1,10 @@
+# 1. Bloqueo de bots/scanners (WP)
+/wp-admin/*    /404.html    404
+/wp-login.php  /404.html    404
+/xmlrpc.php    /404.html    410
+
+# 2. Redirecciones de navegación
+/servicios     /index.html  301
+
+# 3. Soporte para Single Page Application (SPA) o Rutas inexistentes
+/*             /index.html  200

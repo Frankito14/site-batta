@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Transportes Dibat - Fletes, mudanzas y logística en Buenos Aires. Más de 10 años de experiencia. Servicio de embalaje, carga y descarga con operarios profesionales.">
+    <meta name="keywords" content="fletes Buenos Aires, mudanzas Buenos Aires, logística, transporte de carga, servicio de embalaje, mudanza profesional">
+    <meta name="author" content="Transportes Dibat">
+    <meta name="theme-color" content="#2563eb">
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="Transportes Dibat - Fletes y Mudanzas en Buenos Aires">
+    <meta property="og:description" content="Servicio profesional de fletes y mudanzas con más de 10 años de experiencia. Embalaje, carga y descarga en Buenos Aires.">
+    <meta property="og:site_name" content="Transportes Dibat">
+    <meta property="og:locale" content="es_AR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Transportes Dibat - Fletes y Mudanzas">
+    <meta name="twitter:description" content="Fletes y mudanzas profesionales en Buenos Aires con más de 10 años de experiencia.">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="canonical" href="https://transportesdibat.com.ar">
+    <title>Transportes Dibat - Fletes y Mudanzas en Buenos Aires</title>
+    <link rel="icon" href="./img/icon.ico" type="image/x-icon">
+    <link href="./tailwind.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Transportes Dibat",
+      "image": "https://transportesdibat.com.ar/img/banner.webp",
+      "description": "Servicio profesional de fletes y mudanzas en Buenos Aires",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Buenos Aires",
+        "addressLocality": "Buenos Aires",
+        "addressRegion": "CABA",
+        "addressCountry": "AR"
+      },
+      "telephone": "+54-11-5054-5987",
+      "url": "https://transportesdibat.com.ar",
+      "priceRange": "$$",
+      "areaServed": "Buenos Aires",
+      "sameAs": [
+        "https://www.instagram.com/logisticadibat/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Servicio de Mudanzas y Fletes",
+      "description": "Servicio profesional de mudanzas, fletes y logística con embalaje",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Transportes Dibat"
+      },
+      "areaServed": "Buenos Aires"
+    }
+    </script>
+</head>
+
+<body class="smooth-scroll">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <div class="text-2xl font-bold text-blue-600">
+                        <i class="fas fa-truck mr-2"></i>Transportes Dibat
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <nav class="ml-10 flex items-baseline space-x-4" aria-label="Navegación principal">
+                        <a href="#inicio"
+                            class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Inicio</a>
+                        <a href="#nosotros"
+                            class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Nosotros</a>
+                        <a href="#servicios"
+                            class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Servicios</a>
+                        <a href="#resenas"
+                            class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Reseñas</a>
+                        <a href="#cobertura"
+                            class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Cobertura</a>
+                        <a href="#contacto"
+                            class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contacto</a>
+                    </nav>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" aria-label="Abrir menú de navegación" aria-expanded="false"
+                        class="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600">
+                        <i class="fas fa-bars text-xl" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <nav class="px-2 pt-2 pb-3 space-y-1 sm:px-3" aria-label="Navegación móvil">
+                <a href="#inicio"
+                    class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+                <a href="#nosotros"
+                    class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Nosotros</a>
+                <a href="#servicios"
+                    class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
+                <a href="#resenas"
+                    class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Reseñas</a>
+                <a href="#cobertura"
+                    class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Cobertura</a>
+                <a href="#contacto"
+                    class="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-bg min-h-screen flex items-center justify-center text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                Transportes Dibat <span class="block text-blue-300">Fletes y Mudanzas</span>
+            </h1>
+            <p class="text-md md:text-2xl mb-8 max-w-3xl mx-auto">
+                Especialidad en Servicio de Mudanza con el camión: Embalaje, Carga, Descarga, etc.
+            </p>
+            <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
+                <a href="https://api.whatsapp.com/send/?phone=541150545987&text=%C2%A1HOLA%21+me+gustar%C3%ADa+recibir+una+cotizaci%C3%B3n+espero+su+respuesta+%C2%A1MUCHAS+GRACIAS%21&type=phone_number&app_absent=0"
+                    aria-label="Solicitar cotización por WhatsApp" target="_blank" rel="noopener noreferrer"
+                    class="bg-blue-300 hover:bg-blue-400 text-black font-bold py-3 px-8 rounded-lg transition-colors inline-block">
+                    Solicitar Cotización
+                </a>
+                <a href="#servicios" aria-label="Ir a sección de servicios"
+                    class="border-2 bg-black/50 hover:bg-white hover:text-blue-600 font-bold py-3 px-8 rounded-lg transition-colors inline-block">
+                    Ver Servicios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <section id="nosotros" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Sobre Nosotros</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Con más de 10 años de experiencia brindando compromiso y dedicación.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Nuestra Historia</h3>
+                    <p class="text-gray-600 mb-6">
+                        Somos un equipo de trabajo dedicados al servicio de logística, fletes y mudanzas. Contamos con
+                        mas de 10 años de trayectoria, brindando compromiso y dedicación a cada cliente.
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-600 mb-2">300+</div>
+                            <div class="text-gray-600">Clientes Satisfechos</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-600 mb-2">10+</div>
+                            <div class="text-gray-600">Años de experiencia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Nuestros Valores</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Confiabilidad</h4>
+                                <p class="text-gray-600">Cumplimos nuestras promesas de entrega</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Compromiso</h4>
+                                <p class="text-gray-600">Asumimos cada trabajo con responsabilidad.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-600 mt-1 mr-3" aria-hidden="true"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Dedicación</h4>
+                                <p class="text-gray-600">Ponemos pasión y esfuerzo en cada detalle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nuestros Servicios</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Ofrecemos soluciones logísticas completas adaptadas a las necesidades de tu negocio
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <a href="./fletes.html" id="fletes" class="service-card bg-white hover:bg-blue-50 hover:cursor-pointer transition p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de Fletes">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Fletes y Flota</h3>
+                    <p class="text-gray-600 text-sm">
+                        Transporte seguro y confiable para todas tus necesidades de carga.
+                    </p>
+                </a>
+
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de LogÃ­stica">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Logística</h3>
+                    <p class="text-gray-600 text-sm">
+                        Planificación y gestión integral de tu cadena de suministro.
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de Operarios">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Operarios</h3>
+                    <p class="text-gray-600 text-sm">
+                        Personal especializado para carga, descarga y manipulación.
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de Embalaje">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Servicio de Embalaje</h3>
+                    <p class="text-gray-600 text-sm">
+                        Protección profesional para tus productos durante el transporte.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de Desarme en Origen">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Desarme en Origen</h3>
+                    <p class="text-gray-600 text-sm mb-3">
+                        Desmontaje profesional de tus muebles.
+                    </p>
+                    <p class="text-xs text-gray-500">
+                        Camas • Cunas • Rack TV • Muebles
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de Armado en Destino">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-screwdriver"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Armado en Destino</h3>
+                    <p class="text-gray-600 text-sm mb-3">
+                        Montaje en tu nuevo hogar.
+                    </p>
+                    <p class="text-xs text-gray-500">
+                        Camas • Muebles • Rack TV • Cunas
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Entrega de Kits para Mudanza">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Entrega de Kits para Mudanza</h3>
+                    <p class="text-gray-500 text-xs">
+                        Llevamos a tu domicilio kits de embalaje para que puedas dar inicio al embalaje de enseres
+                        personales pequeños.
+                    </p>
+                </div>
+
+                <div class="service-card bg-white p-6 rounded-lg shadow-lg border border-gray-200" role="article" aria-label="Servicio de Materiales para Embalaje">
+                    <div class="text-3xl text-blue-600 mb-4" aria-hidden="true">
+                        <i class="fas fa-archive"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-3">Materiales</h3>
+                    <p class="text-gray-600 text-sm mb-3">
+                        Todo lo necesario para embalar.
+                    </p>
+                    <p class="text-xs text-gray-500">
+                        Cajas doble corrugado • Cinta adhesiva común • Film burbuja • Cintas con leyenda fragil.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Servicios Principales -->
+            <div class="mt-20">
+                <div class="text-center mb-12">
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Nuestros Servicios Principales</h3>
+                    <p class="text-lg text-gray-600">
+                        Elige el servicio que mejor se adapte a tus necesidades
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <div
+                        class="service-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg border-2 border-blue-200">
+                        <div class="text-center mb-6">
+                            <div class="text-5xl text-blue-600 mb-4">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Servicio Normal</h3>
+                            <p class="text-gray-600">
+                                Ideal para servicio de mudanza estándar.
+                            </p>
+                        </div>
+
+                        <ul class="space-y-3 mb-6">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Transporte seguro, unidades cero kilómetro.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Carga y descarga incluida. Todo el personal con Art.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Entrega de cajas+cintas en tu domicilio. Se entregan con
+                                    antelación a tu mudanza.
+                                </span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">No incluye embalaje de los muebles,servicio
+                                    económico.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span class="text-gray-700">Abona en efectivo o Mercado Pago al finalizar tu
+                                    mudanza.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="service-card bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 rounded-xl shadow-lg border-2 border-yellow-200" role="article" aria-label="Servicio Completo de mudanzas">
+                        <div class="text-center mb-6">
+                            <div class="text-5xl text-yellow-600 mb-4" aria-hidden="true">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Servicio Completo</h3>
+                            <p class="text-gray-600">
+                                Servicio full para clientes exigentes.
+                            </p>
+                        </div>
+
+                        <ul class="space-y-3 mb-6" role="list" aria-label="Caractersticas del servicio completo">
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3" aria-hidden="true"></i>
+                                <span class="text-gray-700">Todo lo del servicio normal</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3" aria-hidden="true"></i>
+                                <span class="text-gray-700">Embalaje profesional por nuestros operarios con mantas y
+                                    strech industrial para proteger todos tus muebles.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3" aria-hidden="true"></i>
+                                <span class="text-gray-700">Desarme de camas/mesas/muebles/cunas en origen.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check-circle text-green-500 mr-3" aria-hidden="true"></i>
+                                <span class="text-gray-700">Ensamble de camas/mesas/muebles/cunas en tu nuevo hogar para
+                                    que tengas todo listo para usar.</span>\n                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseñas Section -->
+    <section id="resenas" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Reseñas de nuestros clientes</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+
+                </p>
+            </div>
+
+            <!-- Slider Container -->
+            <div class="relative max-w-4xl mx-auto">
+                <div class="overflow-hidden rounded-lg">
+                    <div id="reviews-slider" class="flex transition-transform duration-500 ease-in-out ">
+                        <!-- Review 1 -->
+                        <div class="w-full h-auto flex-shrink-0">
+                            <div class="bg-white">
+                                <img src="./img/review1.webp" alt="Reseña de cliente - Google Maps" class="h-auto mx-auto p-4"
+                                    onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="w-full h-auto flex-shrink-0">
+                            <div class="bg-white">
+                                <img src="./img/review2.webp" alt="Reseña de cliente - Google Maps" class="h-auto mx-auto p-4"
+                                    onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Review 3 -->
+                        <div class="w-full h-auto flex-shrink-0">
+                            <div class="bg-white">
+                                <img src="./img/review3.webp" alt="Reseña de cliente - Google Maps" class="h-auto mx-auto p-4"
+                                    onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Review 4 -->
+                        <div class="w-full h-auto flex-shrink-0">
+                            <div class="bg-white">
+                                <img src="./img/review4.webp" alt="Reseña de cliente - Google Maps" class="h-auto mx-auto p-4"
+                                    onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';" loading="lazy">
+                            </div>
+                        </div>
+                        <!-- Review 5 -->
+                        <div class="w-full h-auto flex-shrink-0">
+                            <div class="bg-white">
+                                <img src="./img/review5.webp" alt="Reseña de cliente - Google Maps" class="h-auto mx-auto p-4"
+                                    onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <button id="prev-btn" aria-label="Reseña anterior"
+                    class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-3 shadow-lg transition-all">
+                    <i class="fas fa-chevron-left text-gray-700" aria-hidden="true"></i>
+                </button>
+                <button id="next-btn" aria-label="Siguiente reseña"
+                    class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-3 shadow-lg transition-all">
+                    <i class="fas fa-chevron-right text-gray-700" aria-hidden="true"></i>
+                </button>
+
+                <!-- Dots Indicator -->
+                <div class="flex justify-center mt-6 space-x-2" role="tablist" aria-label="Selección de reseñas">
+                    <button class="slider-dot w-3 h-3 rounded-full bg-blue-600 transition-all" data-slide="0" role="tab" aria-label="Reseña 1" aria-selected="true"></button>
+                    <button class="slider-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all"
+                        data-slide="1" role="tab" aria-label="Reseña 2" aria-selected="false"></button>
+                    <button class="slider-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all"
+                        data-slide="2" role="tab" aria-label="Reseña 3" aria-selected="false"></button>
+                    <button class="slider-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all"
+                        data-slide="3" role="tab" aria-label="Reseña 4" aria-selected="false"></button>
+                    <button class="slider-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all"
+                        data-slide="4" role="tab" aria-label="Reseña 5" aria-selected="false"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cobertura Section -->
+    <section id="cobertura" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Nuestra Cobertura</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+
+                </p>
+            </div>
+
+            <div class="w-full">
+                <div class="bg-gray-100 rounded-lg p-4">
+                    <div class="aspect-w-16 aspect-h-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6994122318365!2d-58.508508000000006!3d-34.6117617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb779bb020ba5%3A0x9cadb26a3c1db77a!2sMudanzas-fletes-logistica!5e0!3m2!1ses!2sar!4v1776862461614!5m2!1ses!2sar" width="100%;" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto Section-->
+    <section id="contacto" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Contacto</h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">WhatsApp</h3>
+                    <p class="text-gray-600 mb-6">
+                        Contactanos via WhatsApp para consultas rápidas y cotizaciones.
+                    </p>
+
+                    <div class="bg-white rounded-xl shadow-md p-6 transition-shadow duration-300 mb-6" role="region" aria-label="Contacto principal por WhatsApp">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-green-600 rounded-full p-3" aria-hidden="true">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.63" />
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <p class="text-green-600 font-medium text-2xl">+54 9 11 5054-5987</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-md p-6 transition-shadow duration-300" role="region" aria-label="Contacto secundario por WhatsApp">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-green-600 rounded-full p-3" aria-hidden="true">
+                                <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.465 3.63" />
+                                </svg>
+                            </div>
+                            <div class="flex-1">
+                                <p class="text-green-600 font-medium text-2xl">+54 9 11 6607-0553</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <img src="./img/contacto.webp" title="Contacto por WhatsApp" alt="Imagen de contacto - Botón de WhatsApp"  
+                        class="h-96 mx-auto" loading="lazy"
+                        onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="text-2xl font-bold text-blue-400 mb-4">
+                        <i class="fas fa-truck mr-2"></i>Transportes Dibat
+                    </div>
+                    <p class="text-gray-300 mb-1 max-w-md">
+                        <span class="font-semibold">Teléfono:</span> 011 5054-5987 | 011 6607-0553
+                    </p>
+                    <p class="text-gray-300 mb-3 max-w-md">
+                        <span class="font-semibold">Dirección:</span> 1407, Buenos Aires
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/logisticadibat/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visitanos en Instagram" class="text-pink-400 hover:text-white transition-colors">
+                            <i class="fab fa-instagram text-xl" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=541150545987&text=%C2%A1HOLA%21+me+gustar%C3%ADa+recibir+una+cotizaci%C3%B3n+espero+su+respuesta+%C2%A1MUCHAS+GRACIAS%21&type=phone_number&app_absent=0"
+                            class="text-green-400 hover:text-white transition-colors" target="_blank"
+                            rel="noopener noreferrer" aria-label="Contactanos por WhatsApp">
+                            <i class="fab fa-whatsapp text-xl" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.google.com/maps/place/Mudanzas-fletes-logistica/@-34.6117617,-58.508508,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb779bb020ba5:0x9cadb26a3c1db77a!8m2!3d-34.6117617!4d-58.508508"
+                            class="text-red-400 hover:text-white transition-colors" target="_blank"
+                            rel="noopener noreferrer" aria-label="Ver nuestra ubicación en Google Maps">
+                            <i class="fas fa-map-marker-alt text-xl" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+                    <ul class="space-y-2" role="list">
+                        <li><a href="#nosotros" class="text-gray-300 hover:text-white transition-colors" aria-label="Ir a la sección Nosotros">Nosotros</a>
+                        </li>
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors" aria-label="Ir a la sección Servicios">Servicios</a>
+                        </li>
+                        <li><a href="#cobertura" class="text-gray-300 hover:text-white transition-colors" aria-label="Ir a la sección Cobertura">Cobertura</a>
+                        </li>
+                        <li><a href="#contacto" class="text-gray-300 hover:text-white transition-colors" aria-label="Ir a la sección Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Servicios</h3>
+                    <ul class="space-y-2" role="list">
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors" aria-label="Conocer sobre nuestro servicio de Fletes">Fletes</a>
+                        </li>
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors" aria-label="Conocer sobre nuestro servicio de Logística">Logística</a>
+                        </li>
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors" aria-label="Conocer nuestro Servicio Normal de mudanzas">Servicio Normal</a></li>
+                        <li><a href="#servicios" class="text-gray-300 hover:text-white transition-colors" aria-label="Conocer nuestro Servicio Completo de mudanzas">Servicio Completo</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">
+                    © 2025 Transportes Dibat. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://api.whatsapp.com/send/?phone=541150545987&text=%C2%A1HOLA%21+me+gustar%C3%ADa+recibir+una+cotizaci%C3%B3n+espero+su+respuesta+%C2%A1MUCHAS+GRACIAS%21&type=phone_number&app_absent=0"
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contáctanos por WhatsApp" title="Contáctanos por WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            const isExpanded = mobileMenuButton.getAttribute('aria-expanded') === 'true';
+            mobileMenuButton.setAttribute('aria-expanded', !isExpanded);
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuButton.setAttribute('aria-expanded', 'false');
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80; // Account for fixed header
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Reviews slider functionality
+        let currentSlide = 0;
+        const slider = document.getElementById('reviews-slider');
+        const slides = slider.children;
+        const totalSlides = slides.length;
+        const dots = document.querySelectorAll('.slider-dot');
+
+        function updateSlider() {
+            slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+
+            // Update dots
+            dots.forEach((dot, index) => {
+                if (index === currentSlide) {
+                    dot.classList.remove('bg-gray-300');
+                    dot.classList.add('bg-blue-600');
+                } else {
+                    dot.classList.remove('bg-blue-600');
+                    dot.classList.add('bg-gray-300');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            updateSlider();
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        }
+
+        // Event listeners for navigation buttons
+        document.getElementById('next-btn').addEventListener('click', nextSlide);
+        document.getElementById('prev-btn').addEventListener('click', prevSlide);
+
+        // Event listeners for dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateSlider();
+            });
+        });
+
+        // Auto-play slider
+        setInterval(nextSlide, 4000);
+
+        // Add active class to navigation links based on scroll position
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-600');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-blue-600');
+                }
+            });
+        });
+    </script>
+    <script>(function () { function c() { var b = a.contentDocument || a.contentWindow.document; if (b) { var d = b.createElement('script'); d.innerHTML = "window.__CF$cv$params={r:'9866e0cf464d443f',t:'MTc1OTEwMDY0OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);"; b.getElementsByTagName('head')[0].appendChild(d) } } if (document.body) { var a = document.createElement('iframe'); a.height = 1; a.width = 1; a.style.position = 'absolute'; a.style.top = 0; a.style.left = 0; a.style.border = 'none'; a.style.visibility = 'hidden'; document.body.appendChild(a); if ('loading' !== document.readyState) c(); else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c); else { var e = document.onreadystatechange || function () { }; document.onreadystatechange = function (b) { e(b); 'loading' !== document.readyState && (document.onreadystatechange = e, c()) } } } })();</script>
+</body>
+
+</html>
+
