@@ -57,7 +57,7 @@ export default function RootLayout({
                 "addressCountry": "AR"
               },
               "telephone": "+54-11-5054-5987",
-              "url": "https://transportesbatta.com.ar",
+              "url": "https://transportesbatta.ar",
               "priceRange": "$$",
               "areaServed": "Buenos Aires",
               "sameAs": [

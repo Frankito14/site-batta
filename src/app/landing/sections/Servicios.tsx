@@ -28,7 +28,7 @@ export default function Servicios() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div className="service-card bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-xl shadow-lg border-2 border-blue-200">
+            <div className="service-card bg-blue-50 p-8 rounded-xl shadow-lg border-2 border-gray-200">
               <div className="text-center mb-6">
                 <div className="text-5xl text-blue-600 mb-4">
                   <i className="fas fa-truck"></i>
@@ -63,7 +63,7 @@ export default function Servicios() {
               </ul>
             </div>
 
-            <div className="service-card bg-gradient-to-br from-yellow-50 to-yellow-100 p-8 rounded-xl shadow-lg border-2 border-yellow-200" role="article" aria-label="Servicio Completo de mudanzas">
+            <div className="service-card  bg-yellow-50  p-8 rounded-xl shadow-lg border-2 border-gray-200" role="article" aria-label="Servicio Completo de mudanzas">
               <div className="text-center mb-6">
                 <div className="text-5xl text-yellow-600 mb-4" aria-hidden="true">
                   <i className="fas fa-star"></i>

@@ -23,6 +23,8 @@ Este proyecto es una **Landing Page de alto rendimiento** (Single Page Applicati
 
 ---
 
+![Servicios](./src/assets/images/screenshots/servicios.png)
+
 ## 💻 Arquitectura y Decisiones Técnicas
 
 El proyecto utiliza **Next.js App Router** (`src/app`). Aunque es un sitio estático, se ha estructurado de forma modular para escalar fácilmente:
