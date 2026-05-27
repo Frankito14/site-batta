@@ -11,7 +11,7 @@ const mudanzaData = [
             "Carga y descarga profesional",
             "Entrega de cajas+cintas (anticipada).",
             "No incluye embalaje de los muebles",
-            "Abona en efectivo o Pago",
+            "Abona en efectivo o MercadoPago",
             "No incluye el desarme y el ensamble de muebles"
         ]
     },

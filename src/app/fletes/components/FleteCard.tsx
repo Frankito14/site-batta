@@ -15,13 +15,14 @@ type FleteCardProps = {
     specs: Specification[],
     description: string,
     whatsappMsg: string
+    phone: string
 }
 
-export default function FleteCard({ img, specs, title, description, whatsappMsg }: FleteCardProps) {
+export default function FleteCard({ img, specs, title, description, phone }: FleteCardProps) {
 
     const { showModal } = useModal();
 
-    const whatsappHref = whatsappURL(`¡Hola! Me gustaría recibir una cotización para el servicio: ${title} (Fletes y Flota)`)
+    const whatsappHref = whatsappURL(`¡Hola! Me gustaría recibir una cotización para el servicio: ${title} (Fletes y Flota)`, phone)
 
     const handleShow = () => {
         showModal(

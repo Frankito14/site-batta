@@ -80,7 +80,8 @@ const fletesData = [
             { feature: "Ancho Caja Carga", value: "2.60 Metros" },
             { feature: "Altura Int. Caja Carga", value: "2.70 Metros" },
             { feature: "Capacidad de Carga", value: "25.0 Tn / 108 m³" }
-        ]
+        ],
+        phone: "5491132780412"
     }
 ];
 export default function FletesList() {
@@ -94,6 +95,7 @@ export default function FletesList() {
                     title={fleteData.title}
                     description={fleteData.description}
                     whatsappMsg={fleteData.description}
+                    phone={fleteData?.phone || "541150545987"}
                 />
             ))}
         </>

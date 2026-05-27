@@ -4,8 +4,11 @@ import review2 from "@/assets/images/review2.webp";
 import review3 from "@/assets/images/review3.webp";
 import review4 from "@/assets/images/review4.webp";
 import review5 from "@/assets/images/review5.webp";
+import review6 from "@/assets/images/review6.png";
+import review7 from "@/assets/images/review7.png";
+import review8 from "@/assets/images/review8.png";
 
-const reviewImages = [review1, review2, review3, review4, review5];
+const reviewImages = [review1, review2, review3, review4, review5, review6, review7, review8];
 
 export default function Resenas() {
   return (

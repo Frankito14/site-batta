@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <section
             id="inicio"
-            className="relative hero-bg min-h-[90vh] md:min-h-screen flex items-center justify-center text-white overflow-hidden"
+            className="relative hero-bg min-h-dvh md:min-h-dvh flex items-center justify-center text-white overflow-hidden"
         >
             <div className="absolute inset-0 bg-gradient-to-b from-gray-950/50 via-gray-900/60 to-gray-950/70 z-0" aria-hidden="true" />
 
@@ -12,7 +12,7 @@ export default function Hero() {
 
                 <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
                     Transportes Batta
-                    <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 mt-2">
+                    <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 mt-2 pb-4 ">
                         Fletes y Mudanzas
                     </span>
                 </h1>

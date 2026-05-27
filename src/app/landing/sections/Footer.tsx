@@ -76,23 +76,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Servicios</h3>
             <ul className="space-y-2" role="list">
               <li>
-                <Link href="/landing#servicios" className="text-gray-300 hover:text-white transition-colors" aria-label="Conocer sobre nuestro servicio de Fletes">
+                <Link href="/fletes" className="text-gray-300 hover:text-white transition-colors" aria-label="Conocer sobre nuestro servicio de Fletes">
                   Fletes
                 </Link>
               </li>
               <li>
-                <Link href="/landing#servicios" className="text-gray-300 hover:text-white transition-colors" aria-label="Conocer sobre nuestro servicio de Logística">
+                <Link href="/mudanzas" className="text-gray-300 hover:text-white transition-colors" aria-label="Conocer sobre nuestro servicio de Logística">
                   Mudanza
-                </Link>
-              </li>
-              <li>
-                <Link href="/landing#servicios" className="text-gray-300 hover:text-white transition-colors" aria-label="Conocer nuestro Servicio Normal de mudanzas">
-                  Servicio Normal
-                </Link>
-              </li>
-              <li>
-                <Link href="/landing#servicios" className="text-gray-300 hover:text-white transition-colors" aria-label="Conocer nuestro Servicio Completo de mudanzas">
-                  Servicio Completo
                 </Link>
               </li>
             </ul>
