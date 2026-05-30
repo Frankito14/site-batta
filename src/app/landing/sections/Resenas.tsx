@@ -30,7 +30,7 @@ export default function Resenas() {
           <ResenaSlider images={reviewImages} />
         </div>
 
-        <div className="text-center mt-12 text-sm text-gray-500 flex items-center justify-center gap-2">
+        <div className="text-center mt-12 text-sm text-gray-500 flex flex-col md:flex-row items-center justify-center gap-2">
           <div className="flex text-amber-400 text-lg">★★★★★</div>
           <span>Calificación promedio de 5/5 basada en nuestros clientes</span>
         </div>

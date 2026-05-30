@@ -95,17 +95,17 @@ export default function ResenaSlider({ images }: ResenaSliderProps) {
           {images.map((img, idx) => (
             <div 
               key={idx} 
-              className="w-full flex-shrink-0 flex items-center justify-center p-6 md:p-10 select-none"
+              className="w-full h-[400px] flex-shrink-0 flex items-center justify-center p-6 md:p-10 select-none"
               role="group"
               aria-roledescription="slide"
               aria-label={`Reseña ${idx + 1} de ${images.length}`}
               aria-hidden={currentIndex !== idx}
             >
-              <div className="relative w-full max-h-[380px] flex items-center justify-center">
+              <div className="relative w-full h-full flex items-center justify-center">
                 <Image
                   src={img}
                   alt={`Reseña de cliente ${idx + 1} - Google Maps`}
-                  className="h-auto max-h-[340px] w-auto object-contain transition-transform duration-300 hover:scale-[1.02]"
+                  className="max-h-full max-w-full w-auto object-contain transition-transform duration-300 hover:scale-[1.02]"
                   priority={idx === 0}
                   quality={90}
                 />

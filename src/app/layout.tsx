@@ -4,21 +4,52 @@ import { ModalProvider } from "@context/ModalContext";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://transportesbatta.ar/"),
   title: "Transportes Batta - Fletes y Mudanzas en Buenos Aires",
   description: "Transportes Batta - Fletes, mudanzas y logística en Buenos Aires. Más de 10 años de experiencia. Servicio de embalaje, carga y descarga con operarios profesionales.",
-  keywords: "fletes Buenos Aires, mudanzas Buenos Aires, logística, transporte de carga, servicio de embalaje, mudanza profesional",
-  authors: [{ name: "Transportes Batta" }],
+  keywords: "fletes Buenos Aires, mudanzas Buenos Aires, logística, transporte de carga, servicio de embalaje, mudanza profesional, transporte batta, fletes en caba, mudanzas caba",
+  authors: [{ name: "Transportes Batta", url: "https://transportesbatta.ar/" }],
+  creator: "Transportes Batta",
+  publisher: "Transportes Batta",
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     type: "website",
     title: "Transportes Batta - Fletes y Mudanzas en Buenos Aires",
     description: "Servicio profesional de fletes y mudanzas con más de 10 años de experiencia. Embalaje, carga y descarga en Buenos Aires.",
     siteName: "Transportes Batta",
     locale: "es_AR",
+    url: "https://transportesbatta.ar/",
+    images: [
+      {
+        url: "/images/banner.webp",
+        width: 1200,
+        height: 630,
+        alt: "Transportes Batta - Fletes y Mudanzas en Buenos Aires",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Transportes Batta - Fletes y Mudanzas",
     description: "Fletes y mudanzas profesionales en Buenos Aires con más de 10 años de experiencia.",
+    images: ["/images/banner.webp"],
+  },
+  icons: {
+    icon: "/images/icon.ico",
+    apple: "/images/icon.ico",
   },
   other: {
     "mobile-web-app-capable": "yes",
@@ -47,7 +78,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "Transportes Batta",
-              "image": "https://transportesbatta.com.ar/img/banner.webp",
+              "image": "https://transportesbatta.ar/images/banner.webp",
               "description": "Servicio profesional de fletes y mudanzas en Buenos Aires",
               "address": {
                 "@type": "PostalAddress",
@@ -57,7 +88,7 @@ export default function RootLayout({
                 "addressCountry": "AR"
               },
               "telephone": "+54-11-5054-5987",
-              "url": "https://transportesbatta.ar",
+              "url": "https://transportesbatta.ar/",
               "priceRange": "$$",
               "areaServed": "Buenos Aires",
               "sameAs": [
@@ -76,9 +107,11 @@ export default function RootLayout({
               "description": "Servicio profesional de mudanzas, fletes y logística con embalaje",
               "provider": {
                 "@type": "LocalBusiness",
-                "name": "Transportes Batta"
+                "name": "Transportes Batta",
+                "image": "https://transportesbatta.ar/images/banner.webp"
               },
-              "areaServed": "Buenos Aires"
+              "areaServed": "Buenos Aires",
+              "url": "https://transportesbatta.ar/"
             })
           }}
         />

@@ -42,7 +42,7 @@ export default function MudanzaCard({ iconClassName, bgClassName, title, descrip
                     <p className="h-auto md:h-12 text-gray-600 text-sm mb-4">
                         {description}
                     </p>
-                    <div className="flex flex-wrap gap-2 mt-4">
+                    <div className="flex flex-col md:flex-row gap-2 mt-4">
                         <button onClick={() => handleShow()}
                             className="flex-1 lg:w-auto font-semibold bg-sky-400 hover:bg-sky-600 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-sm shadow-green-600/20 hover:cursor-pointer">
                             <i className="fa-solid fa-circle-info text-xl"></i>

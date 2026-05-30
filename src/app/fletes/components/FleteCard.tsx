@@ -69,7 +69,7 @@ export default function FleteCard({ img, specs, title, description, phone }: Fle
                             </div>
                         )}
                     </div>
-                    <div className="flex gap-2 mt-4">
+                    <div className="flex flex-col sm:flex-row gap-2 mt-4">
                         <button onClick={() => handleShow()}
                             className="flex-1 md:w-auto font-semibold bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-sm shadow-green-600/20 hover:cursor-pointer">
                             <i className="fa-solid fa-circle-info text-xl"></i>
