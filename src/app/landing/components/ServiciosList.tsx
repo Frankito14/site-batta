@@ -19,42 +19,42 @@ const serviciosData = [
         title: "Operarios",
         description: "Personal especializado para carga, descarga y manipulación.",
         iconClassName: "fas fa-users",
-        href: "",
+        href: "/operarios",
         id: "operarios"
     },
     {
         title: "Servicio de Embalaje",
         description: "Protección profesional para tus productos durante el transporte.",
         iconClassName: "fas fa-box-open",
-        href: "",
+        href: "/embalaje",
         id: "servicio-de-embalaje"
     },
     {
         title: "Desarme en Origen",
         description: "Desmontaje profesional de tus muebles: Camas • Cunas • Rack TV • Muebles.",
         iconClassName: "fas fa-tools",
-        href: "",
+        href: "/desarme-en-origen",
         id: "desarme-en-origen"
     },
     {
         title: "Armado en Destino",
         description: "Montaje en tu nuevo hogar de Camas • Muebles • Rack TV • Cunas.",
         iconClassName: "fas fa-couch",
-        href: "",
+        href: "/armado-en-destino",
         id: "armado-en-destino"
     },
     {
         title: "Entrega de Kits",
         description: "Llevamos a tu domicilio kits de embalaje para que puedas dar inicio al embalaje de enseres personales pequeños.",
         iconClassName: "fas fa-dolly",
-        href: "",
+        href: "/entrega-kits",
         id: "entrega-de-kits-para-mudanza"
     },
     {
         title: "Materiales",
         description: "Todo lo necesario para embalar: Cajas doble corrugado • Cinta adhesiva común • Film burbuja • Cintas con leyenda fragil.",
         iconClassName: "fas fa-tape",
-        href: "",
+        href: "/materiales",
         id: "materiales"
     }
 ];
