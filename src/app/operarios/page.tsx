@@ -9,7 +9,7 @@ export default function MudanzasPage() {
       <NavigatorSection path={"/landing#servicios"} />
       <ServicioLayout
         title="Operarios"
-        description="¡Contamos con el equipo ideal para lo que necesites! 🤝 En nuestra empresa nos especializamos en ofrecerte soluciones a medida con personal experto en cada área:"
+        description="¡Contamos con el equipo ideal para lo que necesites! En nuestra empresa nos especializamos en ofrecerte soluciones a medida con personal experto en cada área:"
         id="operarios"
       >
         <OperarioList />

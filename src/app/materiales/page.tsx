@@ -16,7 +16,7 @@ export default function MaterialesPage() {
                 description="¡Cuidamos todo desde el inicio!"
                 id="materiales"
             >
-                <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 mb-16">
+                <div className="mx-auto px-4 sm:px-6 lg:px-8 mb-16">
                     <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col md:flex-row">
                         <div className="relative h-72 md:h-auto md:w-1/2 md:min-h-[400px]">
                             <Image

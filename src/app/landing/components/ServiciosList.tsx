@@ -26,7 +26,7 @@ const serviciosData = [
         title: "Servicio de Embalaje",
         description: "Protección profesional para tus productos durante el transporte.",
         iconClassName: "fas fa-box-open",
-        href: "/embalaje",
+        href: "",
         id: "servicio-de-embalaje"
     },
     {
